@@ -1,4 +1,23 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background: linear-gradient(to right,pink ,purple);
+  background-color: black;
+  color: white;
+}
+
+main {
+  text-align: center;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  transition: all 0.5s;
+  width: 50%;
+  height: 1000px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+main:hover {
+  background-color: rgb(184, 102, 186);
 }
