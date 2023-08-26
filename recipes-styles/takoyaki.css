@@ -1,3 +1,156 @@
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border:solid 1px red;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .a-container {
+    width: 1200px;
+    font-size: 1em;
+  }
+  img {
+    width: 1em;
+  }
+}
+
+/* lg */
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  .a-container {
+    font-size: 0.75em;
+  }
+
+  .a-container img {
+    width: 260px;
+  }
+}
+
+/* md */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .a-container {
+    font-size: 0.7em;
+  }
+
+  .a-container img {
+    width: 250px;
+  }
+}
+
+/* sm */
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media screen and (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+  .a-container {
+    font-size: 10px;
+  }
+  .ingredients div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+}
+
+/*css starts here*/
+
 body {
-  background-color: lightcoral;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+
+.a-container {
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-container img {
+  width: 300px;
+  height: auto;
+  border-radius: 1000%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-img {
+  width: 90%;
+  height: 90%;
+  height: auto;
+  border-radius: 100px;
+  padding-top: 10px;
+}
+
+.food-des {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1000px;
+  background-color:  black;
+  border-radius: 20px;
+}
+
+.description h1 {
+  margin: 0;
+}
+.recipe {
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+.steps{
+  width: 50%;
+}
+.steps img {
+  width: 70%;
+  margin:10px 0;
+  border-radius: 10px;
 }
