@@ -1,23 +1,84 @@
+.ksa {
+text-align: center;
+height: 390px;
+width: 390px;
+object-fit: contain;
+object-position: center;
+
+}
+.ksatext {
+  text-align: center;
+}
+.ksabutton,.ksabutton a {
+  background-color: lightcoral;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 8px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: black;
+
+  color: white;
+  margin: 0;
+}
+
+
+main p {
+  margin: 0;
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
+
 main {
+  background-image: url(images/blackboard.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   justify-content: start;
   align-items: center;
   display: flex;
   flex-direction: column;
-  
-  transition: all 0.5s;
-  width: 50%;
-  height: 1000px;
+  height: 900px;
   margin: 0 auto;
-  border-radius: 20px;
+  position: relative;
 }
 
-main:hover {
-  background-color: rgb(184, 102, 186);
+.logo {
+  position: absolute;
+  top: -2px;
+  left: 0px;
+}
+
+.foodicontainer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+.foodicon img {
+  height: 170px;
+  width: 260px;
+  object-fit: contain;
+  object-position: center;
+}
+.foodicon a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.foodicon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

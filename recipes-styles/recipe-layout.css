@@ -2,8 +2,8 @@
   max-width: 1536px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
 }
 
 
@@ -67,6 +67,7 @@
 @media screen and (max-width: 475px) {
   .container {
     width: 100%;
+    margin: 0 0;
   }
   .a-container {
     font-size: 10px;
@@ -96,24 +97,21 @@ body {
 .food-name {
   transition: all 0.3s;
 }
-.food-name:hover {
+.food-name {
   text-decoration: underline;
-  color: rgb(184, 102, 186);
+  color: rgb(255, 255, 255);
 }
+
 .backhome {
-  transition: all 0.3s;
-}
-.backhome:hover {
   color: rgb(184, 102, 186);
   cursor: pointer;
 }
 .con {
   margin-left: 0;
   margin-right: 0;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
   margin-top: 5px;
-  transition: background-color 0.3s;
 }
 
 
@@ -149,9 +147,7 @@ div {
   align-items: center;
 }
 
-.con:hover {
-  background-color: rgb(184, 102, 186);
-}
+
 
 .food-des {
   display: flex;
